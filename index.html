@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impostor!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        --color-brand-background: #3A2D70; /* Dark Purple from logo bg/shield bottom */
+        --color-brand-card: #4A3B85; /* Slightly lighter purple for cards */
+        --color-brand-primary: #FACC15; /* Yellow from "IMPOSTER" text - Tailwind's yellow-500 */
+        --color-brand-primary-darker: #EAB308; /* Tailwind's yellow-600 */
+        --color-brand-accent-orange: #F97316; /* Orange for gradient - Tailwind's orange-600 */
+        --color-brand-secondary: #2DD4BF; /* Teal from accents - Tailwind's teal-500 */
+        --color-brand-secondary-darker: #14B8A6; /* Tailwind's teal-600 */
+        --color-brand-text: #F3F4F6; /* Light Gray - Tailwind's gray-100 */
+        --color-brand-text-muted: #A0AEC0; /* A softer gray for muted text */
+        --color-brand-text-dark: #2F2550; /* Dark purple for text on light buttons */
+        --color-brand-highlight: #A78BFA; /* Lighter purple from mask - Tailwind's violet-400 */
+        --color-brand-input-bg: #5A4B9A; /* A mid-tone purple for inputs */
+        --color-brand-input-border-focus: #7C5DFA; /* Highlight purple for input focus (using mask color) */
+        --color-brand-input-border: #695AA6; /* Slightly darker border for inputs */
+
+        --color-success: #34D399; /* Tailwind's green-500 */
+        --color-danger: #EF4444; /* Tailwind's red-600 */
+        --color-danger-darker: #DC2626; /* Tailwind's red-700 */
+        --color-warning: #FBBF24; /* Tailwind's amber-400 */
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--color-brand-background);
+        color: var(--color-brand-text);
+      }
+      /* For a slightly more playful theme, consider adding a Google Font if allowed,
+         otherwise, rely on Tailwind's default font stack. */
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+</head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
