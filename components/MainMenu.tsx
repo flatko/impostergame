@@ -23,7 +23,7 @@ const MainMenu: React.FC<MainMenuProps> = ({ onStartGame, t, currentLang, setLan
       <Card className="w-full max-w-md text-center">
         <div className="mb-8">
           <img 
-            src="/impostor_logo.png" 
+            src="./impostor_logo.png" 
             alt={`${appTitle} Logo`} 
             className="w-48 md:w-64 h-auto mx-auto mb-6" 
           />
